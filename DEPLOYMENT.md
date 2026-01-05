@@ -18,7 +18,6 @@ The workflow file is currently only in this Pull Request branch. **You must merg
 ### Step 1: Merge This Pull Request
 1. Review and approve this PR
 2. Click the **Merge pull request** button to merge it into the `master` branch
-3. **Do NOT delete the branch yet** - wait to confirm the deployment works first
 
 ### Step 2: Enable GitHub Pages in Repository Settings
 After the PR is merged to the `master` branch, configure GitHub Pages:
@@ -43,11 +42,11 @@ Once the PR is merged to `master`:
 ### Step 4: Troubleshooting
 If the workflow fails:
 - Check the Actions tab for error messages
-- Make sure all required permissions are granted to GitHub Actions:
+- Verify GitHub Actions has the required permissions:
   - Go to Settings > Actions > General
-  - Under "Workflow permissions", select "Read and write permissions"
-  - Check "Allow GitHub Actions to create and approve pull requests"
-  - Click Save
+  - Under "Workflow permissions", ensure at least "Read repository contents and packages permissions" is selected
+  - The workflow needs `contents: read`, `pages: write`, and `id-token: write` permissions (already configured in the workflow file)
+  - Click Save if you made changes
 
 ### Step 5: Future Updates
 After the initial setup, every time you push changes to the `master` branch, the site will automatically rebuild and redeploy. You can also manually trigger a deployment:
