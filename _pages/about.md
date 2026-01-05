@@ -19,4 +19,4 @@ My academic journey reflects a commitment to bridging the gap between cognitive 
 
 
 
-[Download my CV here](/files/Kishen_Senziani_CV.pdf)
+[Download my CV here](/files/Kishen_Senziani_CV_PhD.pdf)
