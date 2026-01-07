@@ -7,16 +7,16 @@ baseurl: ""
 # Tes informations personnelles basées sur ton CV
 author:
   name: "Kishen Senziani"
-  [cite_start]email: "kishen.senziani@eunige.ch" # [cite: 3]
-  [cite_start]location: "Genève, Suisse" # [cite: 2]
-  [cite_start]bio: "MSc Neuroscience & MSc Psychology | UNIGE" # [cite: 6, 27, 28]
+  email: "kishen.senziani@eunige.ch"
+  location: "Genève, Suisse"
+  bio: "MSc Neuroscience & MSc Psychology | UNIGE"
   avatar: "assets/images/profile.png" # Tu devras uploader une photo nommée profile.png dans ce dossier
   twitter: "" # Ajoute si tu as
   google_scholar: "" # Ajoute si tu as
   github: "ton-pseudo-github"
   linkedin: "ton-pseudo-linkedin"
   researchgate: ""
-  [cite_start]orcid: "0000-0003-2051-4562" # [cite: 4]
+  orcid: "0000-0003-2051-4562"
 
 # Menu de navigation
 nav:
