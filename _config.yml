@@ -1,8 +1,8 @@
 title: "Kishen Senziani"
 name: "Kishen Senziani"
 description: "PhD student in Neuroscience"
-url: "https://kishensenziani.github.io" # Ton url future
-baseurl: "" 
+url: "https://orion212-lab.github.io"
+baseurl: "/kishensenziani.github.io"
 
 # Tes informations personnelles basées sur ton CV
 author:
@@ -10,7 +10,7 @@ author:
   email: "kishen.senziani@eunige.ch"
   location: "Genève, Suisse"
   bio: "MSc Neuroscience & MSc Psychology | UNIGE"
-  avatar: "assets/images/profile.png" # Tu devras uploader une photo nommée profile.png dans ce dossier
+  avatar: <img src="{{ site.baseurl }}/assets/images/profile.png" /> # Tu devras uploader une photo nommée profile.png dans ce dossier
   twitter: "" # Ajoute si tu as
   google_scholar: "" # Ajoute si tu as
   github: "ton-pseudo-github"
